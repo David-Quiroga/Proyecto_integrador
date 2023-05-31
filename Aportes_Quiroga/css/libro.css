@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+    background-image: url(/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(10.5px);
+}
+.header{
+    background-color: #866348;
+    border: 1px solid #000000;
+    height: 85px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 85px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 60px;
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 10px;
+
+}
+.nav-menu-link:hover {
+    background-color: #FEE7CD;
+    color:black !important;
+    transition: 0.4s;
+    width: max-content;
+}
+.group{
+    box-sizing: border-box;
+    position: absolute;
+    width: 298px;
+    height: 718px;
+    left: 0px;
+    top: 85px;
+    background: #866348;
+    border-right: 1px solid #000000;
+}
+.text1{
+    position: absolute;
+    width: 370px;
+    height: 36px;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #0A0A0A;
+    left: 15px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 36px;
+}
+.text2{
+    position: absolute;
+    width: 252px;
+    height: 31px;
+    left: 22px;
+    top: 70px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.text2:hover{
+    background-color: #FEE7CD;
+    border-radius: 10px;
+    color:black !important;
+}
+.options{
+    position: absolute;
+    width: 297px;
+    height: 60px;
+    left: 0;
+    top: 85px;
+    background: #5F4633;
+    z-index: 9999;
+}
