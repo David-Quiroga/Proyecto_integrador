@@ -1,0 +1,255 @@
+.group{
+  box-sizing: border-box;
+  position: absolute;
+  width: 298px;
+  height: 718px;
+  left: 0px;
+  top: 85px;
+  background: #866348;
+  border-right: 1px solid #000000;
+}
+.text1{
+  position: absolute;
+  width: 370px;
+  height: 36px;
+  font-weight: 400;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  color: #0A0A0A;
+  left: 15px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  line-height: 36px;
+}
+.text2{
+  position: absolute;
+  width: 252px;
+  height: 31px;
+  left: 22px;
+  top: 70px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.text2:hover{
+  background-color: #FEE7CD;
+  border-radius: 10px;
+  color:black !important;
+}
+.options{
+  position: absolute;
+  width: 297px;
+  height: 60px;
+  left: 0;
+  top: 85px;
+  background: #5F4633;
+  z-index: 9999;
+}
+.lines{
+  box-sizing: border-box;
+  position: absolute;
+  width: 383px;
+  height: 252px;
+  left: 494px;
+  top: 115px;
+  background: rgba(217, 217, 217, 0.5);
+  border: 1px solid #000000;
+  border-radius: 20px;
+}
+.line1{
+  position: absolute;
+  width: 381px;
+  height: 0px;
+  left: 0px;
+  top: 61px;
+  border: 1px solid #000000;
+}
+.line1_1{
+  position: absolute;
+  width: 187px;
+  height: 0px;
+  left: 100px;
+  top: 93px;
+  border: 1px solid #000000;
+  transform: rotate(90.32deg);
+}
+.lines2{
+  box-sizing: border-box;
+  position: absolute;
+  width: 383px;
+  height: 252px;
+  left: 948px;
+  top: 320px;
+
+  background: rgba(217, 217, 217, 0.5);
+  border: 1px solid #000000;
+  border-radius: 20px;
+}
+.lines3{
+  box-sizing: border-box;
+  position: absolute;
+  width: 383px;
+  height: 252px;
+  left: 494px;
+  top: 495px;
+  background: rgba(217, 217, 217, 0.5);
+  border: 1px solid #000000;
+  border-radius: 20px;
+}
+.users{
+  position: absolute;
+  width: 102px;
+  height: 38px;
+  left: 50px;
+  top: 75px;
+  transform: rotate(270deg);
+  display: flex;
+  justify-content: space-between;
+}
+.usersoffline{
+  position: absolute;
+  width: 102px;
+  height: 38px;
+  left: 50px;
+  top: -101px;
+  transform: rotate(270deg);
+  display: flex;
+  justify-content: space-between;
+}
+.numeroUsuarios{
+  position: absolute;
+  width: 275px;
+  height: 30px;
+  left: 90px;
+  top: -40px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.online{
+  position: absolute;
+  width: 84px;
+  height: 28px;
+  left: 60px;
+  top: 80px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.onlineDot {
+  position: absolute;
+  width: 22px;
+  height: 25px;
+  left: 40px;
+  top: 93px;
+}
+.offline{
+  position: absolute;
+  width: 96px;
+  height: 27px;
+  left: 230px;
+  top: 80px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color:#000000;
+}
+.onlineOff{
+  position: absolute;
+  width: 20px;
+  height: 15px;
+  left: 209px;
+  top: 93px;
+
+}
+.line2_2{
+  position: absolute;
+  width: 380px;
+  height: 0px;
+  left: 1px;
+  top: 46px;
+  border: 1px solid #000000;
+}
+.books{
+  position: absolute;
+  width: 136px;
+  height: 30px;
+  left: 100px;
+  top: -30px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.numDesc{
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 240px;
+  top: 70px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+.desc{
+  position: absolute;
+  width: 101px;
+  height: 100px;
+  left: 90px;
+  top: 80px;
+}
+.line3_3{
+  position: absolute;
+  width: 382px;
+  height: 0px;
+  left: 0px;
+  top: 71px;
+  border: 1px solid #000000;
+}
+.bookshelf{
+  position: absolute;
+  width: 80px;
+  height: 28px;
+  left: 155px;
+  top: -50px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.bookshelfs{
+  position: absolute;
+  width: 82px;
+  height: 40px;
+  left: 250px;
+  top: 60px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+.libro{
+  position: absolute;
+  width: 94px;
+  height: 65px;
+  left: 90px;
+  top: 70px;
+}

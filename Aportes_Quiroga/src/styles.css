@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: sans-serif;
+  background-image: url(/Aportes_Quiroga/src/assets/img/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter: blur(10.5px);
+}

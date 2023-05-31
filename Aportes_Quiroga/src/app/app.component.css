@@ -1,0 +1,9 @@
+body {
+  font-family: sans-serif;
+  padding: 90px 20px 0;
+  background-image: url(/Aportes_Quiroga/src/assets/img/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter: blur(10.5px);
+}
