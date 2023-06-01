@@ -1,0 +1,121 @@
+<body>
+  <header class="header">
+      <div class="container">
+          <!--   <div class="logo">
+              <img src="/img/logoElibrary.jpg" alt="">
+          </div>-->
+          <div class="btn-menu">
+              <label for="btn-menu">☰</label>
+          </div>
+
+          <nav class="menu">
+              <a href="#">oooo</a>
+              <a href="#">oooo</a>
+              <a href="#">oooo</a>
+
+          </nav>
+      </div>
+  </header>
+  <div class="capa"></div>
+  <!--	--------------->
+  <input type="checkbox" id="btn-menu">
+  <div class="container-menu">
+      <div class="cont-menu">
+          <nav>
+              <a href="#" onclick="Mostrar_ocultar()">Crear rol</a>
+              <a href="#" onclick="Mostrar_ocultar2()">Asigna rol</a>
+
+          </nav>
+
+          <label for="btn-menu">✖</label>
+      </div>
+  </div>
+
+  <!--	--------------->
+
+
+  <div class="container-sm">Dashboar revision de datos</div>
+
+
+  <!--	--------------->
+  <div class="container" id="table">
+      <!-- Content here -->
+      <table class="table" id="i">
+          <thead>
+              <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">First</th>
+                  <th scope="col">Last</th>
+                  <th scope="col">Handle</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+              </tr>
+              <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+              </tr>
+              <tr>
+                  <th scope="row">3</th>
+                  <td colspan="2">Larry the Bird</td>
+                  <td>@twitter</td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+  <div class="formulario" id="formulario">
+      <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+  </div>
+
+
+  <script>
+      function Mostrar() {
+          document.getElementById("table").style.display = "block";
+      }
+      function Ocultar() {
+          document.getElementById("table").style.display = "none";
+      }
+      function Mostrar_ocultar() {
+          var table = document.getElementById("table");
+          if (table.style.display == "none") {
+              Mostrar();
+          } else {
+              Ocultar()
+          }
+
+      }
+
+
+      function Mostrar2() {
+          document.getElementById("formulario").style.display = "block";
+      }
+      function Ocultar2() {
+          document.getElementById("formulario").style.display = "none";
+      }
+      function Mostrar_ocultar2() {
+          var table = document.getElementById("formulario");
+          if (table.style.display == "none") {
+              Mostrar2();
+          } else {
+              Ocultar2()
+          }
+
+      }
+
+
+  </script>
+</body>
