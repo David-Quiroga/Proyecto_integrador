@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  padding: 90px 20px 0;
+  background-image: url(/Aportes_Quiroga/src/assets/img/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter: blur(10.5px);
+}
+.header{
+  background-color: #866348;
+  border: 1px solid #000000;
+  height: 85px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link {
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none;
+
+}
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 40px;
+  line-height: 85px;
+}
+.nav-menu{
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+}
+.nav-menu-item {
+  font-size: 18px;
+  margin: 0 10px;
+  line-height: 60px;
+}
+.nav-menu-link{
+  padding: 8px 12px;
+  border-radius: 10px;
+
+}
+.nav-menu-link:hover {
+  background-color: #FEE7CD;
+  color:black !important;
+  transition: 0.4s;
+  width: max-content;
+}
